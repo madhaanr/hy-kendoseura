@@ -1,0 +1,138 @@
+html, body, div, img, span, h1, h2, h3, p, pre, a
+{
+    margin: 0;
+    padding: 0;
+    border: 0 none;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+body {
+    background-color: white;
+    text-align: center;
+    margin:0 auto;
+}
+#frame {
+    margin:0 auto;
+}
+#bannerback {
+    width: 100%; 
+    text-align: center;
+    
+}
+#bannerbackleft {
+    z-index:-5;
+    position:absolute;
+    height:200px; 
+    width:50%; 
+    float:left;
+    margin:0 auto;
+    background-color:#1B75BB;     
+}
+#bannerbackright {
+    z-index: -5;
+    position:absolute;
+    top:0;
+    right:0;
+    float:right;
+    width:50%;
+    height:200px;
+    margin:0 auto;
+    background-color: #262261;   
+}
+#banner {   
+    z-index:-1;
+    width:800px;
+    height:200px;
+    margin:0 auto;
+    background-image: url(banner.gif);
+}
+ul {
+    margin:0 auto;
+    padding: 0;
+}
+#banner ul li {
+    margin: 180px 0 0 0;
+    float: left;
+    display: inline;
+}
+#banner ul li a {   
+    margin: 0 0.5em 0 0.5em;
+    font-family: calibri;
+    list-style-type: none;  
+    font-size: 1em; 
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+
+ul li a:hover {
+    text-decoration: underline;
+}
+.current {
+    text-decoration: underline;
+    color:#D44227;
+}
+#textcontainer {
+    margin: 0 auto;
+    width:800px;
+    background-color: #E6E6E6;
+    height:auto;        
+}
+#textfield {   
+    margin:0 auto;
+    padding: 30px 100px 20px 100px;
+    height:auto;     
+}
+#textfield ul {
+    text-align: left;
+    float: left;
+    padding: 5px 5px 5px 20px;
+    font-family: calibri;
+    font-size: 1em;
+    width: 600px;
+}
+h1 {
+    margin: 0 auto;
+    text-align: left;
+    color: #D44227;
+    font-family: calibri;
+    font-size: 1.4em;
+    clear:left;
+}
+h2 {
+    padding-top: 10px;
+    margin: 0 auto;
+    text-align: left;
+    color: #D44227;
+    font-family: calibri;
+    font-size: 1em;
+    clear:left;
+}
+p {
+    text-align: left;
+    margin:0;
+    padding: 5px 0 5px 0; 
+    font-family: calibri;
+    font-size: 1em;
+}
+#footer {
+    margin: 0 auto;
+    width:800px;
+    height:50px;
+    padding: 20px 0 0 0;
+}
+.bottomlinks {
+    display: inline; 
+}
+.blcolor {
+    color:#D44227;
+}
+table {
+    text-align: left;
+}
+pre {
+    text-align: left;
+    margin:0;
+    font-family: calibri;
+    font-size: 1em;
+}
