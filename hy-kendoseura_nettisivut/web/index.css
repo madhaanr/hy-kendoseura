@@ -7,6 +7,9 @@ html, body, div, img, span, h1, h2, h3, p, pre, a
     font: inherit;
     vertical-align: baseline;
 }
+html {
+    overflow-y:scroll;
+}
 body {
     background-color: white;
     text-align: center;
