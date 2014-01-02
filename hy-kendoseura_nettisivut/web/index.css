@@ -115,6 +115,16 @@ h2 {
     text-align: left;
     color: #D44227;
     font-family: calibri;
+    font-size: 1.1em;
+    clear:left;
+}
+
+h3 {
+    padding-top: 10px;
+    margin: 0 auto;
+    text-align: left;
+    color: #D44227;
+    font-family: calibri;
     font-size: 1em;
     clear:left;
 }
